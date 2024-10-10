@@ -1,0 +1,127 @@
+*{
+    box-sizing: border-box;
+   
+}
+
+body{
+    font-optical-sizing: auto;
+    font-weight: bolder;
+    background-color: beige;
+}
+
+.bar{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+
+    h1{
+        font-size: 25px;
+        margin-left: 60px;
+        /* color: white; */
+    }
+    #theme-icon{
+        margin-left: 50px;
+    }
+}
+
+.icon{
+    width: 20px;
+    
+    margin-right: 30px;
+}
+
+.controls{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .search{
+        margin-left: 60px;
+        height: 350px;
+        padding: 20px;
+    }
+    .selec{
+        margin-right: 80px;
+        margin-bottom: 300px;
+        padding: 10px;
+        border: none;
+        border-radius: 6px;
+        font-size: 1em;
+        background-color: rgb(238, 231, 231);
+    }
+    
+}
+#id{
+    top: 355px;
+    left: 575px;
+    height: 30px;
+    width: 50px;
+        
+}
+#search{
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    font-size: 1em;
+    background-color: rgb(238, 230, 230);
+}
+
+#country-list{
+    display: grid;
+    grid-template-columns: minmax(240px,1fr 1fr);
+    gap:22px;
+    padding: 20px;
+    
+}
+.country-card{
+    background-color: antiquewhite;
+    border-radius: 6px;
+    box-shadow: rgb(236, 225, 204);
+    overflow: hidden;
+    cursor: pointer;
+    
+}
+
+.country-card img{
+    width: 50%;
+    object-fit:cover;
+
+}
+.country-card h2{
+font-size: 150%;
+margin: 10px;
+}
+.country-card p{
+    font-size: 100%;
+    margin: 10px;
+}
+
+.country-details{
+    display: none;
+    padding: 18px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.country-details img {
+    width: 30%;
+    height: auto;
+    margin-right: 200px;
+    margin-top: 100px;
+}
+
+
+.country-details div {
+    width: 100%;
+}
+
+.country-details h2, .country-details p, .country-details ul {
+    margin: 10px 0;
+    height: auto;
+    width: auto;
+}
+
+.country-details h2 {
+    margin-bottom: 30px;
+}
+
